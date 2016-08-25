@@ -22,7 +22,7 @@ local function plugin_exists( name )
 end
 
 local function list_all_plugins(only_enabled)
-  local tmp = '\n\n@create_antispam_bot'
+  local tmp = '\n\n@pedaret'
   local text = ''
   local nsum = 0
   for k, v in pairs( plugins_names( )) do
@@ -68,7 +68,7 @@ local function list_plugins(only_enabled)
      -- text = text..v..'  '..status..'\n'
     end
   end
-  local text = text..'\nبارگزاری مجدد انجام شد\n\n'..nact..' پلاگین های فعال:\n'..nsum..' پلاگین های نصب شده\nکانال ساخت ربات ضد اسپم\n@create_antispam_bot'
+  local text = text..'\nبارگزاری مجدد انجام شد\n\n'..nact..' پلاگین های فعال:\n'..nsum..' پلاگین های نصب شده\nکانال ساخت ربات ضد اسپم\@pedaret'
   return text
 end
 
