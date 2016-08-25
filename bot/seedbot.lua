@@ -240,6 +240,12 @@ function create_config( )
 	"version",
 	"mynumber",
 	"fun-tools",
+	"help",
+	"cpu",
+	"expire",
+	"salam",
+	"saveplugg",
+	
 	
 	
 
