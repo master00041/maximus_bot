@@ -245,6 +245,9 @@ function create_config( )
 	"expire",
 	"salam",
 	"saveplugg",
+	"plugins",
+	"del",
+	"filter"
 	
 	
 	
